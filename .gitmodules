@@ -1,0 +1,3 @@
+[submodule "KAZEngine/KAZEngine/vendor/spdlog"]
+	path = KAZEngine/KAZEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
