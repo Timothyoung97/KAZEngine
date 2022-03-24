@@ -1,8 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(499,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
-C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(500,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  Log.cpp
-C:\TimFolder\Hack\KAZEngine\KAZEngine\KAZEngine\src\KAZEngine\Log.h(20,42): warning C4251: 'KAZEngine::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'KAZEngine::Log'
-C:\TimFolder\Hack\KAZEngine\KAZEngine\KAZEngine\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
-C:\TimFolder\Hack\KAZEngine\KAZEngine\KAZEngine\src\KAZEngine\Log.h(21,42): warning C4251: 'KAZEngine::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'KAZEngine::Log'
-C:\TimFolder\Hack\KAZEngine\KAZEngine\KAZEngine\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
-  KAZEngine.vcxproj -> C:\TimFolder\Hack\KAZEngine\KAZEngine\bin\Debug-x64\KAZEngine\KAZEngine.dll
