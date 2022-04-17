@@ -1,2 +1,2 @@
 # KAZEngine
-KAZEngine - Engine in the making
+KAZEngine - Game Engine in the making
