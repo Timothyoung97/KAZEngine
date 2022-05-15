@@ -1,9 +1,6 @@
 #pragma once
 
-#include <functional>
-#include <string>
-
-#include "Core.h"
+#include "KAZEngine/Core.h"
 
 namespace KAZEngine
 {
