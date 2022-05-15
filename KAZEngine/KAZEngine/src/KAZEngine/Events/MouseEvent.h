@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace KAZEngine
 {
 	class KAZENGINE_API MouseMovedEvent : public Event

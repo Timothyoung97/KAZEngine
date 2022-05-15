@@ -18,6 +18,9 @@ project "KAZEngine"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "kepch.h"
+    pchsource "KAZEngine/src/kepch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",
