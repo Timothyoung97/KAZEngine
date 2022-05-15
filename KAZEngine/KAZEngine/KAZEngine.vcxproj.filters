@@ -4,6 +4,9 @@
     <Filter Include="KAZEngine">
       <UniqueIdentifier>{01D236C8-6D3C-EB3E-B67A-9CE42224C993}</UniqueIdentifier>
     </Filter>
+    <Filter Include="KAZEngine\Events">
+      <UniqueIdentifier>{8bca5f0b-4185-4d43-9f95-8907ce5948cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\KAZEngine.h" />
@@ -20,6 +23,18 @@
       <Filter>KAZEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\Test.h" />
+    <ClInclude Include="src\KAZEngine\Events\ApplicationEvent.h">
+      <Filter>KAZEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KAZEngine\Events\Event.h">
+      <Filter>KAZEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KAZEngine\Events\KeyEvent.h">
+      <Filter>KAZEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KAZEngine\Events\MouseEvent.h">
+      <Filter>KAZEngine\Events</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\KAZEngine\Application.cpp">

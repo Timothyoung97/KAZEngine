@@ -144,6 +144,10 @@
     <ClInclude Include="src\KAZEngine\Application.h" />
     <ClInclude Include="src\KAZEngine\Core.h" />
     <ClInclude Include="src\KAZEngine\EntryPoint.h" />
+    <ClInclude Include="src\KAZEngine\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\KAZEngine\Events\Event.h" />
+    <ClInclude Include="src\KAZEngine\Events\KeyEvent.h" />
+    <ClInclude Include="src\KAZEngine\Events\MouseEvent.h" />
     <ClInclude Include="src\KAZEngine\Log.h" />
     <ClInclude Include="src\Test.h" />
   </ItemGroup>

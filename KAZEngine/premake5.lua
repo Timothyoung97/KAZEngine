@@ -26,7 +26,8 @@ project "KAZEngine"
 
     includedirs
     {
-        "%{prj.name}/vendor/spdlog/include;"
+        "%{prj.name}/src",
+        "%{prj.name}/vendor/spdlog/include"
     }
 
     filter "system:windows"
@@ -73,8 +74,8 @@ project "Sandbox"
 
     includedirs
     {
-        "KAZEngine/vendor/spdlog/include",
-        "KAZEngine/src"
+        "KAZEngine/src",
+        "KAZEngine/vendor/spdlog/include"
     }
 
     links
