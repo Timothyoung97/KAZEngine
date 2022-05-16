@@ -8,7 +8,13 @@ workspace "KAZEngine"
         "Dist"
     }
 
-outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}}" 
+outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}}"
+
+-- include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "KAZEngine/vendor/GLFW/include"
+
+include "KAZEngine/vendor/GLFW"
 
 project "KAZEngine"
     location "KAZEngine"
@@ -30,7 +36,14 @@ project "KAZEngine"
     includedirs
     {
         "%{prj.name}/src",
-        "%{prj.name}/vendor/spdlog/include"
+        "%{prj.name}/vendor/spdlog/include",
+        "%{IncludeDir.GLFW}"
+    }
+
+    links
+    {
+        "GLFW",
+        "opengl32.lib"
     }
 
     filter "system:windows"

@@ -7,6 +7,12 @@
     <Filter Include="KAZEngine\Events">
       <UniqueIdentifier>{C512CE67-B10B-EDB9-DA3D-D23EC695CCC5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{d490409b-dc16-4a56-84c8-90479d4e2806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{ddcd635d-3476-4d7f-b117-3e5aecdeb4ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\KAZEngine.h" />
@@ -36,6 +42,12 @@
     </ClInclude>
     <ClInclude Include="src\Test.h" />
     <ClInclude Include="src\kepch.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KAZEngine\Window.h">
+      <Filter>KAZEngine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\KAZEngine\Application.cpp">
@@ -46,5 +58,8 @@
     </ClCompile>
     <ClCompile Include="src\Test.cpp" />
     <ClCompile Include="src\kepch.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
