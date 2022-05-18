@@ -1,6 +1,6 @@
 [submodule "KAZEngine/KAZEngine/vendor/spdlog"]
 	path = KAZEngine/KAZEngine/vendor/spdlog
 	url = https://github.com/gabime/spdlog
-[submodule "KAZEngine/KAZEngine/vendor/GLFW"]
-	path = KAZEngine/KAZEngine/vendor/GLFW
+[submodule "KAZEngine/KAZEngine/KAZEngine/vendor/GLFW"]
+	path = KAZEngine/KAZEngine/KAZEngine/vendor/GLFW
 	url = https://github.com/Timothyoung97/glfw.git

@@ -1,6 +1,6 @@
 #pragma once
 
-#ifdef KE_PLATFORM_WINDOWS
+#ifdef KAZENGINE_PLATFORM_WINDOWS
 
 extern KAZEngine::Application* KAZEngine::CreateApplication();
 

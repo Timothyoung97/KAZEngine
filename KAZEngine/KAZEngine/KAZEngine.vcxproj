@@ -155,15 +155,18 @@
     <ClInclude Include="src\KAZEngine\Events\KeyEvent.h" />
     <ClInclude Include="src\KAZEngine\Events\MouseEvent.h" />
     <ClInclude Include="src\KAZEngine\Log.h" />
-    <ClInclude Include="src\KAZEngine\Window.h" />
-    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
+    <ClInclude Include="src\Platform\KAZEngine.h" />
+    <ClInclude Include="src\Platform\kepch.h" />
+    <ClInclude Include="src\Platform\Test.h" />
     <ClInclude Include="src\Test.h" />
     <ClInclude Include="src\kepch.h" />
+    <ClInclude Include="src\Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\KAZEngine\Application.cpp" />
     <ClCompile Include="src\KAZEngine\Log.cpp" />
-    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
+    <ClCompile Include="src\Platform\kepch.cpp" />
+    <ClCompile Include="src\Platform\Test.cpp" />
     <ClCompile Include="src\Test.cpp" />
     <ClCompile Include="src\kepch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>

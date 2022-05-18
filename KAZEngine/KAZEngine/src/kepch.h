@@ -14,6 +14,6 @@
 
 #include "KAZEngine/Log.h"
 
-#ifdef KE_PLATFORM_WINDOWS
+#ifdef KAZENGINE_PLATFORM_WINDOWS
 	#include <Windows.h>
 #endif

@@ -22,7 +22,6 @@ namespace KAZEngine
 		}
 	};
 
-	// Interface representing a desktop system based Window
 	class KAZENGINE_API Window
 	{
 	public:
@@ -37,7 +36,7 @@ namespace KAZEngine
 
 		// Window attributes
 		virtual void SetEventCallback(const EventCallbackFn& callback) = 0;
-		virtual void SetVSyn(bool enabled) = 0;
+		virtual void SetVSync(bool enabled) = 0;
 		virtual bool IsVSync() const = 0;
 
 		static Window* Create(const WindowProps& props = WindowProps());

@@ -8,9 +8,9 @@ workspace "KAZEngine"
         "Dist"
     }
 
-outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}}"
+outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}}" 
 
--- include directories relative to root folder (solution directory)
+-- Include directories relative to root folder (solution directory)
 IncludeDir = {}
 IncludeDir["GLFW"] = "KAZEngine/vendor/GLFW/include"
 
@@ -40,8 +40,8 @@ project "KAZEngine"
         "%{IncludeDir.GLFW}"
     }
 
-    links
-    {
+    links 
+    { 
         "GLFW",
         "opengl32.lib"
     }
