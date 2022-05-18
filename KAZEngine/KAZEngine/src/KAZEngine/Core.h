@@ -1,7 +1,7 @@
 #pragma once
 
 #ifdef KE_PLATFORM_WINDOWS
-	#ifdef KAZENGINE_BUILD_DLL
+	#ifdef KE_BUILD_DLL
 		#define KAZENGINE_API __declspec(dllexport)
 	#else 
 		#define KAZENGINE_API __declspec(dllimport)
